@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: python-flask-hello
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jjams-tenant/python-flask-hello/python-flask-hello@sha256:d32e74f69f94b495884df59ecd4c51621758de420983a5101615545b97962836
+        name: my-python
+        resources: {}
+status: {}
