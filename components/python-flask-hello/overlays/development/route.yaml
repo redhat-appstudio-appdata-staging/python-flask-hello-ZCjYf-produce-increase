@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: python-flask-hello
     app.kubernetes.io/part-of: python-flask-hello
-  name: python-flask-hellolcsk
+  name: python-flask-hellokriz
 spec:
   path: /
   port:
